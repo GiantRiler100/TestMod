@@ -23,6 +23,7 @@ public class ModCreativeModeTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.SAPPHIRE.get());
                         pOutput.accept(ModItems.RAW_SAPPHIRE.get());
+                        pOutput.accept(ModItems.STRAWBERRY.get());
                         pOutput.accept(ModItems.TEST_BALL.get());
                         //blocks
                         pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
