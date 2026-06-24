@@ -2,6 +2,7 @@ package net.giantriler.rilersmod.item;
 
 import net.giantriler.rilersmod.RilerMod;
 import net.giantriler.rilersmod.block.ModBlocks;
+import net.giantriler.rilersmod.item.custom.TestBall;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -22,9 +23,11 @@ public class ModCreativeModeTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.SAPPHIRE.get());
                         pOutput.accept(ModItems.RAW_SAPPHIRE.get());
+                        pOutput.accept(ModItems.TEST_BALL.get());
                         //blocks
                         pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
                         pOutput.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
+                        pOutput.accept(ModBlocks.SAPPHIRE_ORE.get());
                     })
                     .build());
 
