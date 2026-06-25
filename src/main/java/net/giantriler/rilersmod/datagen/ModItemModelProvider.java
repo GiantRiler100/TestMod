@@ -23,6 +23,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.RAW_SAPPHIRE);
         simpleItem(ModItems.STRAWBERRY);
         simpleItem(ModItems.TEST_BALL);
+        simpleItem(ModItems.SAPPHIRE_PICKAXE);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item){

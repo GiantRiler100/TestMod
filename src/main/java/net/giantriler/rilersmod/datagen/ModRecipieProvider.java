@@ -5,6 +5,7 @@ import net.giantriler.rilersmod.block.ModBlocks;
 import net.giantriler.rilersmod.item.ModItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.AbstractCookingRecipe;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.RecipeSerializer;
@@ -32,6 +33,15 @@ public class ModRecipieProvider extends RecipeProvider implements IConditionBuil
                 .pattern("###")
                 .pattern("###")
                 .define('#', ModItems.SAPPHIRE.get())
+                .unlockedBy(getHasName(ModItems.SAPPHIRE.get()), has(ModItems.SAPPHIRE.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.SAPPHIRE_PICKAXE.get())
+                .pattern("###")
+                .pattern(" I ")
+                .pattern(" I ")
+                .define('#', ModItems.SAPPHIRE.get())
+                .define('I', Items.STICK)
                 .unlockedBy(getHasName(ModItems.SAPPHIRE.get()), has(ModItems.SAPPHIRE.get()))
                 .save(pWriter);
 
