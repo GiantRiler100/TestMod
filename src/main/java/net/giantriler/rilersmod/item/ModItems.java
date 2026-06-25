@@ -1,6 +1,7 @@
 package net.giantriler.rilersmod.item;
 
 import net.giantriler.rilersmod.RilerMod;
+import net.giantriler.rilersmod.item.custom.MetalDetectorItem;
 import net.giantriler.rilersmod.item.custom.TestBall;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -21,6 +22,8 @@ public class ModItems {
             () -> new Item(new Item.Properties().food(ModFoods.STRAWBERRY)));
     public static final RegistryObject<Item> TEST_BALL = ITEMS.register("test_ball",
             () -> new TestBall(new Item.Properties()));
+    public static final RegistryObject<Item> METAL_DETECTOR = ITEMS.register("metal_detector",
+            () -> new MetalDetectorItem(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
