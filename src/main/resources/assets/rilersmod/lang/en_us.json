@@ -5,10 +5,28 @@
   "item.rilersmod.strawberry": "Strawberry",
   "item.rilersmod.metal_detector": "Metal Detector",
   "item.rilersmod.sapphire_pickaxe": "Sapphire Pickaxe",
+  "item.rilersmod.wallpaper": "Uncanny Wallpaper",
 
   "block.rilersmod.sapphire_block": "Sapphire Block",
   "block.rilersmod.raw_sapphire_block": "Raw Sapphire Block",
   "block.rilersmod.sapphire_ore": "Sapphire Ore",
+  "block.rilersmod.wallpaper_block": "Uncanny Wallpaper Block",
+  "block.rilersmod.b_light": "Uncanny Light",
+  "block.rilersmod.b_carpet": "Uncanny Carpet",
+  "block.rilersmod.roof_tiling": "Uncanny Roof tiles",
+
+
+  "block.rilersmod.sapphire_stairs": "Sapphire Stairs",
+  "block.rilersmod.sapphire_slab": "Sapphire Slab",
+  "block.rilersmod.sapphire_button": "Sapphire Button",
+  "block.rilersmod.sapphire_plate": "Sapphire Plate",
+  "block.rilersmod.sapphire_fence": "Sapphire Fence",
+  "block.rilersmod.sapphire_fence_gate": "Sapphire Gate",
+  "block.rilersmod.sapphire_wall": "Sapphire Wall",
+
+
+  "block.rilersmod.sapphire_door": "Sapphire Door",
+  "block.rilersmod.sapphire_trapdoor": "Sapphire Trapdoor",
 
   "creativetab.riler_tab": "Rilers mod"
 

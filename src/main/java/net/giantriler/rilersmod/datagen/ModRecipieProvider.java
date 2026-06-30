@@ -45,6 +45,14 @@ public class ModRecipieProvider extends RecipeProvider implements IConditionBuil
                 .unlockedBy(getHasName(ModItems.SAPPHIRE.get()), has(ModItems.SAPPHIRE.get()))
                 .save(pWriter);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.WALLPAPER_BLOCK.get())
+                .pattern("## ")
+                .pattern("## ")
+                .pattern("   ")
+                .define('#', ModItems.WALLPAPER.get())
+                .unlockedBy(getHasName(ModItems.WALLPAPER.get()), has(ModItems.WALLPAPER.get()))
+                .save(pWriter);
+
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.SAPPHIRE.get(), 9)
                 .requires(ModBlocks.SAPPHIRE_BLOCK.get())
                 .unlockedBy(getHasName(ModBlocks.SAPPHIRE_BLOCK.get()), has(ModBlocks.SAPPHIRE_BLOCK.get()))
