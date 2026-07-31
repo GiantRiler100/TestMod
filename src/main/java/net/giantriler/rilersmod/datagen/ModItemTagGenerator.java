@@ -19,6 +19,6 @@ public class ModItemTagGenerator extends ItemTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider pProvider) {
-        this.tag(ItemTags.PICKAXES).add(ModItems.SAPPHIRE_PICKAXE.get());
+
     }
 }

@@ -22,12 +22,12 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.riler_tab"))
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.SAPPHIRE.get());
+                        pOutput.accept(ModItems.SAPPHIRE_PICKAXE.get());
                         pOutput.accept(ModItems.WALLPAPER.get());
                         pOutput.accept(ModItems.RAW_SAPPHIRE.get());
                         pOutput.accept(ModItems.STRAWBERRY.get());
                         pOutput.accept(ModItems.TEST_BALL.get());
                         pOutput.accept(ModItems.METAL_DETECTOR.get());
-                        pOutput.accept(ModItems.SAPPHIRE_PICKAXE.get());
                         //blocks
                         pOutput.accept(ModBlocks.WALLPAPER_BLOCK.get());
                         pOutput.accept(ModBlocks.B_CARPET.get());
